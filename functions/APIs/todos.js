@@ -3,12 +3,12 @@ exports.getAllTodos = (req, res) => {
     {
       id: "1",
       title: "greeting",
-      body: "Hello world from sharvin shah"
+      body: "Hello world"
     },
     {
       id: "2",
       title: "greeting2",
-      body: "Hello2 world2 from sharvin shah"
+      body: "Hello2 world2"
     }
   ];
   return res.json(todos);
